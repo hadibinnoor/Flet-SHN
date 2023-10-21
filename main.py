@@ -11,7 +11,7 @@ def to_sit(att, total_hour):
 def main(page):
     def btn_click(e):
         if not txt_att.value:
-            txt_att.error_text = "Please enter your name"
+            txt_att.error_text = "Please enter the attendance"
             page.update()
         else:
             att = int(txt_att.value)
